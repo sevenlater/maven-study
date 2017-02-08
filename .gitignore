@@ -19,3 +19,4 @@ dependency-reduced-pom.xml
 resources/XianzhiDbClient.properties
 node_modules/
 *.patch
+*/.idea/*
