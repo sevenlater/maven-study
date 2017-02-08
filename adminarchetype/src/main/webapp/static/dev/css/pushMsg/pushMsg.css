@@ -1,0 +1,18 @@
+/*description:文章相关样式;
+author：liangyu（2016-07-25 17:12:54）
+update：*/
+
+/*内容列表样式开始*/
+.img_coverpage{width: 212px;height: 212px;border: 1px solid #ccc;padding: 5px;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+.img_vote_bg{background: #ececec;height: 78px;display: block;text-align: center;line-height: 78px;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+.img_vote_middle{background: url(../../img/common/media_z2ac3d8.png) 0 -100px no-repeat;width: 44px;height: 34px;vertical-align: middle;display: inline-block;overflow: hidden;}
+.img_vote_bg.has_thumb .img_vote_middle{display: none;}
+.item_right{float: left;margin-left: 20px;height:90px;}
+.item_right input[type="file"]{display: none;}
+.errMsg{color: #cd3333;margin-left: 20px;}
+/*内容列表样式结束*/
+
+/*封面图片框样式开始*/
+.img_coverpage .has_thumb .img_vote_middle{display: none;}
+.img_coverpage .imgWrapBg{width:200px;height:200px;background: #ececec;display: block;text-align: center;line-height: 200px;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+/*封面图片框样式结束*/

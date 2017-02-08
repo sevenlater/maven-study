@@ -1,0 +1,58 @@
+
+<div ng-controller="SingleCtrl">
+    <div class="page-header">
+        <h1>
+            日期组件
+            <small>
+                <i class="icon-double-angle-right"></i>
+            </small>
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="widget-box">
+                <div class="widget-header widget-header-flat">
+                    <h4>长日期组件</h4>
+                </div>
+
+                <div class="widget-body">
+                    <div class="widget-main">
+                        日期组件，input[type='text']标签添加属性 xz-datepicker，ng-model属性是必须的，默认的日期格式为yyyy-MM-dd HH:mm:ss"
+                        </br>
+
+                        <input type="text" ng-model="date1" xz-datepicker />
+                        <hr>
+                        自定义日期格式，直接给xz-datepicker赋值即可，如: xz-datepicker='HH:mm:ss MM-dd-yyyy'
+                        <br>
+                        <input type="text" ng-model="date2" xz-datepicker="HH:mm:ss MM-dd-yyyy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="widget-box">
+                <div class="widget-header widget-header-flat">
+                    <h4>短日期组件(不包含时间)</h4>
+                </div>
+
+                <div class="widget-body">
+                    <div class="widget-main">
+                        日期组件，input[type='text']标签添加属性 xz-short-datepicker，ng-model属性是必须的，默认的日期格式为yyyy-MM-dd"
+                        </br>
+
+                        <input type="text" ng-model="dateshort1" xz-short-datepicker />
+                        <hr>
+                        自定义日期格式，直接给xz-short-datepicker赋值即可，如: xz-datepicker='MM-dd-yyyy'
+                        <br>
+                        <input type="text" ng-model="dateshort2" xz-datepicker="MM-dd-yyyy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

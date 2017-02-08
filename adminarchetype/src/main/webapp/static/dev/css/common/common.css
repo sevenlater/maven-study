@@ -1,0 +1,49 @@
+
+
+/*顶部样式开始*/
+.layout_top_header{background-color: #353636;width: 100%;height: 50px;}
+.logo{font-size: 16px;line-height: 45px;padding-left: 20px;color: #fff;}
+.username{font-size: 16px;line-height: 45px;padding-left: 20px;color: #fff;}
+.loginoutLink{font-size: 16px;line-height: 45px;padding-right: 20px;color: #fff;}
+/*顶部样式开始*/
+/*左侧菜单开始*/
+.layout_left_menu{float:left; position: absolute; /*box-shadow: 0 0 10px #BDBDBD;*/width: 200px;background: #f7f5fa;margin-top: 5px;margin-left: 5px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.menu{list-style: none;line-height: 35px;border-radius: 5px;}
+.childUlLi a i{opacity: 0.5;padding-left: 10px;padding-right: 10px;}
+.menu > li > a{color: #888;text-decoration: none;font-size: 16px;display: block;}
+.childUlLi_li{margin-left: 52px;color: #888;float: left;display: block;}
+.menu .submenu{margin: 5px;}
+.menu .submenu > a{cursor: pointer;padding-left: 10px;border-radius: 5px;}
+.menu .submenu > a:hover{background-color: #cecece;}
+.menu .submenu > a.active{background-color: #cecece;}
+.menu .submenu ul{margin-left: 3em;}
+.icon-multi:before{content:  "\e1db";}
+/*左侧菜单结束*/
+
+/*右侧内容开始*/
+.layout_right_content{margin-left: 210px;padding-left: 10px;padding-top: 5px;min-height: 90%;/*overflow:auto;*/ margin-right:5px;}
+.route_bg{background-color: #E7E7E7;border-radius: 4px;padding: 5px;}
+.page_content{height: 700px;}
+.parentWrap{position: relative;padding-top: 10px;overflow: hidden;}
+/*右侧内容结束*/
+
+/*底部样式开始*/
+.layout_footer{font-size: 12px;background: #ffffff;text-align: center;border-top:1px solid #eee; border-bottom: 1px solid #eee; width: 100%;height: 30px;}
+/*底部样式结束*/
+
+.bs-callout{padding: 20px;margin:20px 0;border: 1px solid #eee;border-left-width:5px;border-radius: 3px; }
+.bs-callout-warning{border-left-color: #aa6708;}
+.bs-callout-info{border-left-color: #1b809e;}
+.bs-callout-danger{border-left-color: #ce4844;}
+
+/*分页样式*/
+.pageBox table{height: 40px;border-collapse: collapse;border-spacing: 0;}
+
+.pageBox{ letter-spacing:0; padding:0;border: 0;font-size:12px; color:#666; font-family:Verdana, Geneva, sans-serif;}
+.pageBox table tr td a{background:#fff;font-size:12px; color:#666; border:1px solid #999999; display:inline-block; padding:3px 8px; margin:0 1px; border-radius:2px;text-decoration: none;}
+.pageBox table tr td a:hover{background:#4982af; color:#fff;border:1px solid #d8d8d8;}
+.pageBox table tr td span{ color:#999; background:#f1f1f1; border:1px solid #d8d8d8; font-size:12px;display:inline-block; padding:3px 8px; margin:0 1px; border-radius:2px;}
+.pageBox table tr td em{ color:#2e6da4; font-family:Verdana, Geneva, sans-serif;font-style: normal;}
+.tableLoading{text-align: center;margin: 20px auto 30px;}
+.tableLoading img{width: 50px;}
+.tableEmpty{text-align: center;margin: 20px auto 30px;}

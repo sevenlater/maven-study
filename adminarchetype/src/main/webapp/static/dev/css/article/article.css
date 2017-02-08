@@ -1,0 +1,100 @@
+/*description:文章相关样式;
+author：vicshang（2016-04-21 15:01:54）
+update：*/
+body{font-size:12px;}
+.disable{background-color: #ccc !important;}
+.previewWrap{height: 120px;width: 188px;overflow: hidden;vertical-align: middle;}
+.previewImg{max-width: 100%;vertical-align: middle;}
+
+
+/*内容编辑部分开始*/
+.formCont{margin-right: 280px;}
+/*内容编辑部分结束*/
+#content{width: 100%;}
+.hidden{display: none;}
+/*分享图片预览开始*/
+.formCont .imgBox{border:1px solid #ccc;height: 90px;width: 90px;padding: 5px;}
+.formCont .imgBox.articleImg{width: 173px;height: 90px;}
+.formCont .imgBox .imgWrapBg{background: #ececec none no-repeat scroll center center / cover ;display: block;text-align: center;height: 100%;line-height: 78px;}
+.formCont .imgBox .imgWrapBg .img_middle{display: inline-block;height: 34px;width: 44px;vertical-align: middle;overflow: hidden;background: rgba(0, 0, 0, 0) url("../../img/common/media_z2ac3d8.png") no-repeat scroll 0 -100px;}
+.formCont .imgBox .has_thumb .img_middle{display: none;}
+.formCont .trigger_btn{padding: 3px 0px;width: 70px;}
+.formCont .optionsDel{padding: 3px 0px;width: 70px;}
+.left_label{float: left;font-size: 14px;}
+.left_label .trigger_btn{display: block;margin-top: 10px;}
+.right_label{margin-left: 100px;}
+#textarea{width: 300px;height: 400px;margin-top: 16px;padding:10px;}
+.paperwork{float: left;width: 100px;margin-bottom: 10px;}
+#reLease{margin: 10px 0 0 100px;width: 100px;float: left;clear: both;}
+#line1 td{text-align: center;}
+/*分享图片预览结束*/
+
+/*预览部分开始*/
+.previewBox{width: 260px;padding: 5px;border:1px solid #ccc;position: fixed;right: 10px;top: 100px;background-color: #fff;}
+.appmsg_thumbWrap{height: 120px;}
+.previewBox .icon_appmsg_thumb{background: url(../../img/common/media_z2ac3d8.png) 0 -100px no-repeat;width: 44px;height: 34px;vertical-align: middle;display: inline-block;overflow: hidden;}
+.previewBox .appmsg_thumb{background-color: #ececec;height: 120px;line-height: 120px;text-align: center;display: block;}
+.previewBox.has_thumb .appmsg_thumb{display: none;}
+.previewBox.has_thumb .appmsg_thumbWrap{background-size:cover;background-repeat: no-repeat;background-position: center center;}
+.previewBox .appmsg_title{font-size: 14px;padding-top: 10px;padding-bottom: 5px;}
+.previewBox .appmsg_title a,.previewBox .appmsg_title a:hover{color: #000000;text-decoration: none;height: 20px;overflow: hidden;display: block;}
+.previewBox .appmsg_title:hover{}
+.previewBox .appmsg_des{color: #555555;line-height: 15px;padding-bottom: 5px;height:30px;overflow: hidden;}
+/*预览部分结束*/
+
+/*文章详情预览开始*/
+.previewWrap{display: none;}
+.previewWrap.active{display: block;}
+.previewWrap .mask{background-color: #000;position: fixed;top:0px;left: 0px;bottom: 0px;right: 0px;z-index: 1000;opacity: 0.75;}
+.previewWrap .previeWBox{position:fixed;top:50%;left:50%;margin-top: -365px;margin-left: -180px;z-index: 1001;width:360px;height: 680px;background: url("../../img/common/wx_phone_preview_z2ac3d8.png") 0 0 no-repeat;font-size: 16px;}
+.previewWrap .jb_phone{padding: 84px 57px 0 19px;}
+.previewWrap .jb_phone .cont{background-color: #fff;height: 501px;overflow: hidden; overflow-y:auto;}
+.previewWrap .jb_phone .cont .contWrap{margin: 10px 15px 15px;text-align: justify;}
+.previewWrap .jb_phone .cont .contWrap p{margin: 0px;}
+.previewWrap .jb_phone .cont .contWrap img{max-width: 100% !important;height:auto !important;}
+.previewWrap .jb_phone .cont .contWrap iframe{width: 100% !important;}
+.previewWrap .preview_close{background-color: #fff;height: 30px;line-height: 30px;vertical-align: middle;text-align: center;text-decoration: none;border: 1px solid #e7e7eb;border-radius: 3px;position: absolute;left: -138px;bottom: 120px;color: #222;width: 120px;cursor: pointer;}
+/*文章详情预览结束*/
+
+/*--------------列表页开始--------------*/
+.box{}
+.box .hd{padding: 5px 12px;color: #fff;background-color: #4982af;}
+th,td{word-wrap:break-word;word-break:break-all;}
+.soBox{padding: 8px;border:1px solid #4982AF;}
+.artList{margin-top: 8px;}
+.artList td{padding: 3px 8px;}
+.artList thead{background-color: #D9EDF7;}
+.artList thead th{text-align: center;line-height: 2em;font-size: 14px;}
+/*--------------列表页结束--------------*/
+
+/*一件换图loading效果开始*/
+.hidden{display: none;}
+.loading_wrap{width: 100%;height:100%;background: rgba(0,0,0,0.7);position: fixed;top:0px;left:0px;z-index: 999;}
+.bar_out{width: 450px;height:10px;background: #fff;border-radius: 9px;position: fixed;top:50%;left:50%;margin-left: -225px; margin-top: -5px;overflow: hidden;}
+.bar_in{width: 0%;height:100%;background: #15c603;}
+.processValue{color: #fff;font-size: 14px;text-align: center;line-height: 30px;position: fixed;top:50%;margin-top: 25px;left:50%;margin-left: -67px;}
+/*一件换图loading效果结束*/
+
+/*文章类目样式开始*/
+.categoryList .imgWrap{width: 100px;display:block;margin: 0px auto;}
+/*文章类目样式结束*/
+
+/*爆料列表样式开始*/
+.tipoff .imgWrap{width: 100px;display:block;margin: 0px auto;}
+/*爆料列表样式结束*/
+
+/*活动列表样式开始*/
+.activity .imgWrap{width: 100px;display:block;margin: 0px auto;}
+/*活动列表样式结束*/
+
+/*文章列表页-分享明细弹框样式开始*/
+.shareDetailShade{width:100%;height:100%;background:rgba(0,0,0,0.7);position:fixed;top:0;left:0;z-index:10;}
+.shareDetailCon{width:400px;height:250px;position:fixed;top:50%;left:50%;margin-top:-150px;margin-left:-200px;background: #fff;padding: 15px;font-size: 16px;}
+.shareList{padding: 10px 0px;}
+.shareList label{width: 50%;text-align: right;}
+/*文章列表页-分享明细弹框样式结束*/
+
+/*用户详情样式开始*/
+.userlist h2{text-align: left;margin:0px 0px 10px 20px;font-size: 16px;line-height: 24px;}
+.userlist .control-label{text-align: left;margin-left: 20px;width: 100px;}
+/*用户详情样式结束*/

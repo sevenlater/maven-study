@@ -1,0 +1,68 @@
+/*description:文章相关样式;
+author：vicshang（2016-04-21 15:01:54）
+update：*/
+.previewWrap{height: 120px;width: 188px;overflow: hidden;vertical-align: middle;}
+.previewImg{max-width: 100%;vertical-align: middle;}
+
+
+/*内容编辑部分开始*/
+.formCont{margin-right: 280px;}
+/*内容编辑部分结束*/
+
+/*预览部分开始*/
+.appmsg_thumbWrap{height: 120px;}
+.previewBox .icon_appmsg_thumb{background: url(../../img/common/media_z2ac3d8.png) 0 -100px no-repeat;width: 44px;height: 34px;vertical-align: middle;display: inline-block;overflow: hidden;}
+.previewBox .appmsg_thumb{background-color: #ececec;height: 120px;line-height: 120px;text-align: center;display: block;}
+.previewBox.has_thumb .appmsg_thumb{display: none;}
+.previewBox.has_thumb .appmsg_thumbWrap{background-size:cover;background-repeat: no-repeat;background-position: center center;}
+.previewBox .appmsg_title{font-size: 14px;padding-top: 10px;padding-bottom: 5px;}
+.previewBox .appmsg_title a,.previewBox .appmsg_title a:hover{color: #000000;text-decoration: none;height: 20px;overflow: hidden;display: block;}
+.previewBox .appmsg_title:hover{}
+.previewBox .appmsg_des{color: #555555;line-height: 15px;padding-bottom: 5px;height:30px;overflow: hidden;}
+/*预览部分结束*/
+
+/*投票小图片预览开始*/
+/*.edui-default .edui-editor{border: none !important;}
+*/.textContWrap{padding-left: 120px;margin-bottom: 20px;}
+.img_vote{width: 100px;height: 90px;border: 1px solid #ccc;float: left;padding: 5px;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+.img_vote_bg{background: #ececec;height: 78px;display: block;text-align: center;line-height: 78px;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+.img_vote_middle{background: url(../../img/common/media_z2ac3d8.png) 0 -100px no-repeat;width: 44px;height: 34px;vertical-align: middle;display: inline-block;overflow: hidden;}
+.img_vote_bg.has_thumb .img_vote_middle{display: none;}
+/*投票小图片预览结束*/
+
+/*文章详情预览开始*//*
+.previewWrap{display: none;}
+.previewWrap.active{display: block;}
+.previewWrap .mask{background-color: #000;position: fixed;top:0px;left: 0px;bottom: 0px;right: 0px;z-index: 1000;opacity: 0.75;}
+.previewWrap .previeWBox{position:fixed;top:50%;left:50%;margin-top: -365px;margin-left: -180px;z-index: 1001;width:360px;height: 680px;background: url("../img/wx_phone_preview_z2ac3d8.png") 0 0 no-repeat}
+.previewWrap .jb_phone{padding: 84px 57px 0 19px;}
+.previewWrap .jb_phone .cont{background-color: #fff;height: 501px;overflow-y:auto;}
+.previewWrap .jb_phone .cont .contWrap{margin: 10px 15px 15px;text-align: justify;}
+.previewWrap .jb_phone .cont .contWrap p{margin: 0px;}
+.previewWrap .jb_phone .cont .contWrap img{max-width: 100%;}
+.previewWrap .preview_close{background-color*/: #fff;height: 30px;line-height: 30px;vertical-align: middle;text-align: center;text-decoration: none;border: 1px solid #e7e7eb;border-radius: 3px;position: absolute;left: -138px;bottom: 120px;color: #222;width: 120px;cursor: pointer;}
+/*文章详情预览结束*/
+
+/*--------------列表页开始--------------*/
+.box{}
+.box .hd{padding: 5px 12px;color: #fff;background-color: #4982af;}
+th,td{word-wrap:break-word;word-break:break-all;}
+.soBox{padding: 8px;border:1px solid #4982AF;}
+.artList{margin-top: 8px;}
+.artList td{padding: 3px 8px;}
+.artList thead{background-color: #D9EDF7;}
+.artList thead th{text-align: center;line-height: 2em;font-size: 14px;}
+/*--------------列表页结束--------------*/
+.new_all input[type="file"]{display: none;}
+.trigger_btn{padding: 6px 0px; width: 100px;}
+
+/*爆料详情样式开始*/
+.tipoffTitle{line-height: 40px;font-size: 14px;font-weight: 700;}
+.tipoffConBox{width: 100%;border: 1px solid #ccc;padding: 8px;}
+.tipoffConBox img{display: block;margin-bottom: 10px;max-width: 60%;}
+.tipoffConfirm{font-size: 14px;width: 100%;border-radius: 5px;border: 1px solid #ccc;margin-top: 10px;line-height: 30px;padding-bottom: 10px;}
+.formRow-box{border-top: 1px solid #ccc;}
+.tipoffConfirm{padding-left: 10px;margin-bottom: 10px;}
+/*爆料详情样式结束*/
+
+
